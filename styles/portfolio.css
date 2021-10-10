@@ -1,0 +1,312 @@
+body {
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  background-color: #1b1b1b;
+  background-position: center center;
+  margin: 0 auto;
+  background-attachment: local;
+  background-position: center;
+}
+
+p,
+h1,
+h6 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 85px;
+  letter-spacing: 4px;
+
+  margin-top: 20px;
+}
+a.btn {
+  background-color: ivory;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 17px;
+  border-radius: 50px;
+  padding: 18px 40px;
+}
+.about h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: start;
+}
+.textbox {
+  max-width: 560;
+  min-height: 639;
+  margin-right: 75px;
+  padding-left: 40px;
+}
+
+h6 {
+  font-style: normal;
+  text-align: center;
+  font-size: 17px;
+  line-height: 30px;
+}
+@media (max-width: 770px) {
+  .textbox h1 {
+    font-size: 30px;
+  }
+  .textbox {
+    min-width: 300px;
+  }
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 2px;
+  line-height: 29px;
+
+  text-align: center;
+  padding-bottom: 10px;
+}
+.text {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.white-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 300px;
+}
+
+.collapse {
+  justify-content: flex-end;
+  margin-right: 140px;
+}
+.navbar-toggler-icon {
+  color: white;
+  border-color: white;
+  background-color: white;
+}
+div.hero {
+  margin-top: 240px;
+  margin-bottom: 100px;
+}
+.hero p {
+  font-size: 50px;
+  color: rgb(133, 110, 49);
+}
+
+.Dave {
+  max-width: 400px;
+  max-height: 280px;
+}
+.DaveInFatherLand {
+  max-width: 450px;
+  max-height: 280px;
+  margin: 0 40px;
+}
+.Kacha {
+  max-width: 400px;
+  max-height: 280px;
+}
+.picture-container,
+.gallery .picture-container,
+.about .picture-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+.picture-container img {
+  margin: 20px;
+}
+.ManFeshandak {
+  max-width: 440px;
+  max-height: 280px;
+}
+
+.Bike {
+  max-width: 450px;
+  max-height: 280px;
+}
+
+.MeInAfjeh {
+  max-width: 275px;
+  max-height: 280px;
+}
+.MeInKacha {
+  max-width: 380px;
+  max-height: 280px;
+}
+
+.MeInTalesh {
+  max-width: 359px;
+  max-height: 280px;
+}
+
+.OverBridge {
+  max-width: 360px;
+  max-height: 280px;
+}
+.SunSet {
+  max-width: 340px;
+  max-height: 280px;
+}
+
+.TaleshLake {
+  max-width: 383px;
+  max-height: 280px;
+}
+
+.UsInDamavand {
+  max-width: 215px;
+  max-height: 280px;
+}
+.about h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f65282;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.about p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 30px;
+}
+.icons .fab {
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.camera {
+  border: 1px solid #2d2727;
+  border-radius: 4px;
+  margin-right: 80px;
+  padding-top: 20px;
+  padding: 20px;
+  padding-bottom: 20px;
+  background-color: #2d2727;
+}
+.cameratext {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.contactbtn {
+  border-radius: 25px;
+  border: white;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #272142;
+}
+.upperpart {
+  margin-bottom: 60px;
+}
+
+.gallery h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  margin-top: 32px;
+  line-height: 84px;
+  margin-bottom: 166px;
+}
+.contact h1 {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+.contact .fas,
+.contact .far {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.contact .loctext {
+  color: white;
+  font-size: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.contact h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 3;
+  color: #f65282;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+.loctext a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.row .location {
+  text-align: center;
+  color: white;
+}
+
+img.logo {
+  max-height: 17px;
+  margin-top: 5px;
+}
+.copywrite {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+footer {
+  background-color: #282323;
+}
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  a.btn {
+    font-size: 12px;
+    padding: 9px 20px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  .copywrite {
+    font-size: 10px;
+  }
+  .img.logo {
+    max-height: 10px;
+  }
+  .container-fluid h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 30px;
+    line-height: 10px;
+  }
+}
+.footericons .fab {
+  display: flex;
+  font-size: 16px;
+  margin-top: 7px;
+}
